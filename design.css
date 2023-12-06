@@ -1,0 +1,364 @@
+p {
+  font-family: arial;
+  font-family: roboto;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+button {
+  font-family: roboto;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+.uber-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.uber-btn:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.uber-btn:active {
+  opacity: 0.85;
+}
+
+.amazon-btn {
+  background-color: #ffd814;
+  border: none;
+  padding: 8px 40px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: background-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.amazon-btn:hover {
+  background-color: #f0ca0e;
+}
+
+.amazon-btn:active {
+  opacity: 0.85;
+}
+
+.github-btn {
+  background-color: #2ea44f;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.github-btn:hover {
+  background-color: #299949;
+}
+
+.github-btn:active {
+  opacity: 0.85;
+}
+
+.getStarted, .download {
+  padding: 10px 12px;
+  border-radius: 2.5px;
+  border-width: 1.2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.getStarted {
+  background-color: #7952b3;
+  color: white;
+  border: none;
+  -webkit-transition: background-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.getStarted:hover {
+  background-color: #6c49a1;
+}
+
+.getStarted:active {
+  opacity: 0.85;
+}
+
+.download {
+  background-color: white;
+  color: #6c757d;
+  border-color: #6c757d;
+  padding: 9px 12px;
+  border-style: solid;
+  -webkit-transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+}
+
+.download:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+.download:active {
+  opacity: 0.85;
+}
+
+hr {
+  margin: 20px 0px;
+}
+
+.apply-button, .save-btn {
+  padding: 10px 22px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.apply-button {
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  -webkit-transition: background-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.apply-button:hover {
+  background-color: #095aac;
+}
+
+.apply-button:active {
+  opacity: 0.85;
+}
+
+.save-btn {
+  background-color: white;
+  border-color: #0a66c2;
+  color: #0a66c2;
+  -webkit-transition: border-color 0.15s, background-color 0.15s, color 0.15s, opacity 0.15s;
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s, opacity 0.15s;
+  padding: 8px 20px;
+}
+
+.save-btn:hover {
+  border-color: #084e94;
+  color: #084e94;
+  border-width: 2px;
+}
+
+.save-btn:active {
+  background-color: #0a66c2;
+  color: white;
+  border-color: #0a66c2;
+  opacity: 0.85;
+}
+
+.link-amazon {
+  color: #007185;
+  -webkit-transition: opacity 0.15s;
+  transition: opacity 0.15s;
+}
+
+.link-amazon:active {
+  opacity: 0.85;
+}
+
+.nike {
+  font-family: sans-serif;
+  margin: 30px 0px;
+}
+
+.stock-price {
+  color: #007600;
+}
+
+.free-delivery {
+  margin: 20px 0px;
+}
+
+.add, .buy {
+  padding: 6px 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.add {
+  background-color: #ffd814;
+  -webkit-transition: background-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.add:hover {
+  background-color: #eec912;
+}
+
+.add:active {
+  opacity: 0.85;
+}
+
+.buy {
+  background-color: #ffa41c;
+  -webkit-transition: background-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.buy:hover {
+  background-color: #e9961a;
+}
+
+.buy:active {
+  opacity: 0.85;
+}
+
+.subscribe-btn, .join-btn, .tweet {
+  padding: 10px 18px;
+  font-weight: bold;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.subscribe-btn {
+  background-color: #ff1414;
+  color: white;
+  border: none;
+  font-weight: normal;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+}
+
+.subscribe-btn:hover {
+  opacity: 0.95;
+}
+
+.subscribe-btn:active {
+  opacity: 0.85;
+}
+
+.join-btn {
+  border-color: #1554ff;
+  color: #1554ff;
+  -webkit-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+  -webkit-transition: background-color 0.15s, color 0.15s;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-btn:hover {
+  background-color: #1554ff;
+  color: white;
+}
+
+.join-btn:active {
+  opacity: .85;
+}
+
+.tweet {
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: #0066ff;
+  -webkit-transition: opacity 0.15s, -webkit-box-shadow 0.15s;
+  transition: opacity 0.15s, -webkit-box-shadow 0.15s;
+  transition: box-shadow 0.15s, opacity 0.15s;
+  transition: box-shadow 0.15s, opacity 0.15s, -webkit-box-shadow 0.15s;
+}
+
+.tweet:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0.95;
+}
+
+.tweet:active {
+  opacity: 0.85;
+}
+
+.shop-early {
+  background-color: #ff1d30;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: normal;
+  -webkit-transition: opacity 0.15s;
+  transition: opacity 0.15s;
+}
+
+.shop-early:hover {
+  opacity: 0.97;
+}
+
+.shop-early .linkShop {
+  color: white;
+  -webkit-transition: opacity 0.15s;
+  transition: opacity 0.15s;
+  text-decoration: none;
+}
+
+.shop-early .linkShop:active {
+  opacity: 0.75;
+}
+
+.shop-early .linkShop:hover {
+  text-decoration: underline;
+}
+
+.the-price {
+  border: 1.5px solid black;
+  padding: 12px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 3px black;
+          box-shadow: 2px 2px 3px black;
+  max-width: 500px;
+}
+
+.the-price .price {
+  font-size: 14px;
+  font-weight: normal;
+  color: #555555;
+  margin: 0px 0px 9px 0px;
+}
+
+.the-price .price .tag-price {
+  font-size: 30px;
+  margin-right: 8px;
+  color: black;
+}
+
+.the-price .today {
+  color: #006b00;
+  font-weight: normal;
+  margin: 0px 0px 9px 0px;
+}
+
+.the-price .after {
+  margin: 0;
+  font-weight: normal;
+  color: #555555;
+}
+
+.the-price .after .tag-price2 {
+  color: #ee0000;
+}
+/*# sourceMappingURL=design.css.map */
